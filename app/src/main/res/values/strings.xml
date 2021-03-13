@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Lesson1</string>
+    <string name="hint_name">Имя</string>
+    <string name="email_default"> simpleEmail@pochta.kek</string>
+    <string name="email_caption">Email</string>
+    <string name="lol">Лол</string>
+    <string name="hint_surname">Фамилия</
+    <string name="pass_conf">Подтверждение пароля</string>string>
+    <string name="pass">Пароль</string>
+    <string name="reg">Регистрация</string>
+    <string name="acc_exist_question">Уже есть аккаунт? Войти</string>
 </resources>

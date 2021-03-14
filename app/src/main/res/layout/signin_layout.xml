@@ -60,7 +60,6 @@
         android:layout_marginTop="48dp"/>
 
     <TextView
-        android:id="@+id/regTransition"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto"
@@ -69,6 +68,6 @@
         android:gravity="center"
         android:textSize="16sp"
         android:layout_marginBottom="68dp"
-        android:layout_marginTop="28dp" />
+        android:layout_marginTop="28dp"/>
 
 </LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="@string/kek"
+        android:textColor="@color/greenny"
+        android:textSize="24sp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/picture_hw2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:paddingHorizontal="5dp"
+        android:text="@string/email_caption"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:hint="@string/pass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:backgroundTint="@color/greenny"
+        android:text="@string/enter"
+        android:textColor="@color/black"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="@string/enter_que"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginTop="28dp"/>
+
+</LinearLayout>
